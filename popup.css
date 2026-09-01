@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(184, 224, 237);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: inter;
+  font-size: 20px;
+}
+
+@keyframes bounceAnimation {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+}
+
+.animal {
+  animation-name: bounceAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
